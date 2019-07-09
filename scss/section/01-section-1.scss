@@ -21,14 +21,21 @@
     justify-content: space-around;
 }
 .section-1__box-flex__img {
+    background-image: url(../img/section-1/img-section-1.png);
+    background-repeat: no-repeat;
+
     position: relative;
-    left: 17px;
     bottom: 100px;
+    left: 17px;
+
+    width: 470px;
+    height: 215px;
+
 }
 
 .section-1__box-list  {
-    margin-top: -16px;
-    margin-left: -43px;
+    margin-top: -8px;
+    margin-left: -55px;
 
     & li {
         display: flex;
@@ -43,7 +50,7 @@
         position: relative;
         bottom: 9px;
         margin-bottom: 15px;
-        padding-left: 45px;
+        padding-left: 36px;
         padding-bottom: 1px;
 
         font-size: 20px;
