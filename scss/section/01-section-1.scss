@@ -40,7 +40,10 @@
     padding-right: 200px;
 
     & p {
+        position: relative;
+        bottom: 9px;
         margin-bottom: 15px;
+        padding-left: 45px;
         padding-bottom: 1px;
 
         font-size: 20px;
@@ -51,13 +54,8 @@
     }
 }
 .section-1__box-list__item {
-
-    & img {
-        position: relative;
-        top: 10px;
-        right: 11px;
-    }
-
+    background-image: url(../img/section-1/check-icon.png);
+    background-repeat: no-repeat;
 }
 /* ----------- */
 /*  Section-1  */
