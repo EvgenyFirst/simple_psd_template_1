@@ -5,8 +5,59 @@
 /*  Section-1  */
 /* ----------- */
 .section-1  {
-    min-height: 323px;
+    max-block-size: 344px;
     background-color: #445162;
+}
+
+.head-product {
+    font-size: 60px;
+    color: #ffffff;
+    text-transform: none;
+    font-weight: 400;
+}
+
+.section-1__box-flex {
+    display: flex;
+    justify-content: space-around;
+}
+.section-1__box-flex__img {
+    position: relative;
+    left: 17px;
+    bottom: 100px;
+}
+
+.section-1__box-list  {
+    margin-top: -16px;
+    margin-left: -43px;
+
+    & li {
+        display: flex;
+    }
+    
+}
+
+.section-1__box-list__item {
+    padding-right: 200px;
+
+    & p {
+        margin-bottom: 15px;
+        padding-bottom: 1px;
+
+        font-size: 20px;
+        font-weight: 400;
+        color: #ffffff;
+        text-transform: none;
+        line-height: 0px;
+    }
+}
+.section-1__box-list__item {
+
+    & img {
+        position: relative;
+        top: 10px;
+        right: 11px;
+    }
+
 }
 /* ----------- */
 /*  Section-1  */

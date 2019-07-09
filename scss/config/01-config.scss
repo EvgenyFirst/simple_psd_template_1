@@ -22,10 +22,6 @@ body {
   background-color: #ffffff;
   background-position: top center;
   background-repeat: no-repeat;
-
-/*
-  background-image: url("../img/");
-*/
 }
 
 img {
@@ -50,6 +46,17 @@ img {
   margin-top: -21px;
 }
 
+.section__box {
+  // padding: 50px;
+  padding-top: 21px;
+  padding-left: 48px;
+  padding-right: 50px;
+  // padding-bottom: 50px;
+}
+
+.list-style {
+  list-style: none;
+}
 /* ------------------------------------------------------------ */
 
 
