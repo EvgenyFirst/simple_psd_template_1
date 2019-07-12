@@ -119,6 +119,37 @@ img {
 /* ----------- */
 /*  Section-2  */
 /* ----------- */
+.section-2 {
+  min-height: 344px;
+  background-color: #ffffff; }
+
+.section-2__product {
+  font-size: 30px;
+  color: #445161;
+  text-transform: none;
+  font-weight: 400; }
+
+.section-2__box-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 1200px; }
+  .section-2__box-flex img {
+    margin-top: -54px;
+    margin-left: 100px; }
+
+.section-2__box-flex__about {
+  width: 655px; }
+  .section-2__box-flex__about p {
+    font-size: 16px;
+    color: #494949;
+    text-transform: none;
+    font-weight: 400; }
+
 /* ----------- */
 /*  Section-2  */
 /*     end     */
