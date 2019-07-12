@@ -11,13 +11,8 @@
 }
 
 .section-3__product {
-    margin-top: 25px;
-
     text-align: center;
-    font-size: 30px;
-    color: #445161;
-    text-transform: none;
-    font-weight: 400;
+    margin-top: 25px;
 }
 
 .section-3__product-flex {
@@ -35,6 +30,7 @@
         width: 590px; 
 
         & img {
+            margin-top: 16px;
             margin-right: 10px;
         }
 

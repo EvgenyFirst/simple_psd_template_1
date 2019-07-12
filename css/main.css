@@ -46,6 +46,12 @@ img {
 .list-style {
   list-style: none; }
 
+.head-sections {
+  font-size: 30px;
+  color: #445161;
+  text-transform: none;
+  font-weight: 400; }
+
 /* ------------------------------------------------------------ */
 /* ------------------------------------------------------------ */
 /* fullpage scroll */
@@ -123,12 +129,6 @@ img {
   min-height: 344px;
   background-color: #ffffff; }
 
-.section-2__product {
-  font-size: 30px;
-  color: #445161;
-  text-transform: none;
-  font-weight: 400; }
-
 .section-2__box-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -166,12 +166,8 @@ img {
   background-color: #f5f5f5; }
 
 .section-3__product {
-  margin-top: 25px;
   text-align: center;
-  font-size: 30px;
-  color: #445161;
-  text-transform: none;
-  font-weight: 400; }
+  margin-top: 25px; }
 
 .section-3__product-flex {
   display: -webkit-box;
@@ -194,6 +190,7 @@ img {
     display: flex;
     width: 590px; }
     .section-3__product--features li img {
+      margin-top: 16px;
       margin-right: 10px; }
     .section-3__product--features li p {
       font-size: 16px;
@@ -212,6 +209,50 @@ img {
 /* ----------- */
 /*  Section-4  */
 /* ----------- */
+.section-4 {
+  min-height: 487px; }
+
+.section-4__scrinshots {
+  text-align: center;
+  margin-top: 25px; }
+
+.section-4__scrinshots--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1240px; }
+
+.scrinshots--flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 620px; }
+  .scrinshots--flex img {
+    margin-top: 24px;
+    margin-right: 16px; }
+
+.scrinshots--flex--info h2 {
+  font-size: 24px;
+  color: #858c95;
+  text-transform: none;
+  font-weight: 400; }
+
+.scrinshots--flex--info p {
+  width: 374px;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+  font-size: 16px;
+  color: #333333;
+  text-transform: none;
+  font-weight: 400;
+  line-height: 1.65; }
+
+.scrinshots--flex--info__head {
+  margin-bottom: -12px; }
+
+.scrinshots--flex--info-left {
+  margin-right: 65px; }
+
 /* ----------- */
 /*  Section-4  */
 /*     end     */

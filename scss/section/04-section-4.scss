@@ -5,6 +5,59 @@
 /*  Section-4  */
 /* ----------- */
 
+.section-4 {
+    min-height: 487px;
+}
+
+.section-4__scrinshots {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.section-4__scrinshots--flex {
+    display: flex;
+    width: 1240px;
+}
+
+.scrinshots--flex {
+    display: flex;
+    width: 620px;
+
+    & img {
+        margin-top: 24px;
+        margin-right: 16px;
+    }
+}
+
+.scrinshots--flex--info {
+
+    & h2 {
+        font-size: 24px;
+        color: #858c95;
+        text-transform: none;
+        font-weight: 400;
+    }
+
+    & p {
+        width: 374px;
+        margin-bottom: 0;
+        padding-bottom: 5px;
+
+        font-size: 16px;
+        color: #333333;
+        text-transform: none;
+        font-weight: 400;
+        line-height: 1.65;
+    }
+}
+
+.scrinshots--flex--info__head {
+    margin-bottom: -12px;
+}
+
+.scrinshots--flex--info-left {
+    margin-right: 65px;
+}
 /* ----------- */
 /*  Section-4  */
 /*     end     */
