@@ -57,6 +57,7 @@
 }
 .buy-it-now-flex__columns-lux {
     width: 300px;
+    max-block-size: 499px;
     
     background-image: url(../img/section-6/bg-lux.png);
     background-repeat: no-repeat;
@@ -135,6 +136,10 @@
 .flex__inside {
     padding-left: 18px;
     padding-right: 18px; 
+}
+.flex__inside__lux {
+    position: relative;
+    top: -10px;
 }
 
 .flex__inside--list {
