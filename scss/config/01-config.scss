@@ -24,15 +24,11 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
 
-  //background-image: url(../img/simple_psd_template.jpg);
+//background-image: url(../img/simple_psd_template.jpg);
 }
 
 img {
   max-width: 100%;
-}
-
-.visually-hidden {
-  text-align: center;
 }
 
 .container {
@@ -50,11 +46,11 @@ img {
 }
 
 .section__box {
-  // padding: 50px;
   padding-top: 21px;
   padding-left: 48px;
   padding-right: 50px;
-  // padding-bottom: 50px;
+//padding: 50px;
+//padding-bottom: 50px;
 }
 
 .list-style {
