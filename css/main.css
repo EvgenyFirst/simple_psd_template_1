@@ -235,7 +235,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1240px; }
+  width: 1228px; }
 
 .scrinshots--flex {
   display: -webkit-box;
@@ -626,7 +626,7 @@ img {
 /* ----------- */
 .section-7 {
   min-height: 508px;
-  margin-top: -66px;
+  margin-top: -20px;
   background-color: #445162; }
 
 .section-7__box {
