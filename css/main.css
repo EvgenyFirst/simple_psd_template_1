@@ -37,6 +37,7 @@ img {
   margin-top: -21px; }
 
 .section__box {
+  height: 343px;
   padding-top: 21px;
   padding-left: 48px;
   padding-right: 50px; }
@@ -71,6 +72,7 @@ img {
   font-weight: 400; }
 
 .section-1__box-flex {
+  height: 125px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -87,6 +89,7 @@ img {
   height: 215px; }
 
 .section-1__box-list {
+  height: 133px;
   margin-top: -8px;
   margin-left: -55px; }
   .section-1__box-list li {
